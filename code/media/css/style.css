@@ -1,0 +1,407 @@
+/* ---------------------------------------------------
+= Styles for Space/Stream page
+------------------------------------------------------ */
+
+/* user-stream */
+
+div.new-stream ul li, div.new-stream ul li img {
+	margin: 0;
+	padding: 0
+}
+
+.user-stream {
+	font-family: Arial, Helvetica, sans-serif
+}
+
+.user-stream h1 {
+	font-size: 1.4em;
+	color: #333;
+	margin: 0;
+	line-height: 1.25em
+}
+
+.user-stream h3 {
+	font-size: 1.15em;
+	background-color: #D4DCE8;
+	padding: 3px 0 3px 6px;
+	color: #333;
+	margin: 10px 0 0 0
+}
+
+.user-stream p {
+	font-size: 1em;
+	padding: 4px 0 4px 0;
+	color: #333;
+	margin: 0;
+	border-bottom: 1px solid #eee;
+	background: #fcfcfc
+}
+
+.user-stream p:hover {
+	background: #EAF3FA
+}
+
+.user-stream a {
+	font-weight: bold;
+	padding: 3px
+}
+
+.user-stream a:hover {
+	background-color: #EAF3FA
+}
+
+.user-stream a.change {
+	background-color: #5274A5;
+	padding: 6px;
+	color: #fff;
+	margin: 0 4px 0 0;
+	text-decoration: underline
+}
+
+.user-stream a.change:hover {
+	background-color: #15478C;
+	padding: 6px;
+	color: #fff;
+	margin: 0 4px 0 0;
+	text-decoration: none
+}
+
+/* Tooltip */
+
+#toolTip {
+	position: absolute;
+	height: 19px;
+	padding: 3px 6px;
+	background-color: #F3FCDD;
+	color: #000;
+	border: 1px solid #ddd;
+	font-weight: normal;
+	font-size: 1em
+}
+
+/* --------------------------------------------------- = Stream/events tool = These styles are used in the shared partial alerts_list = as well as in some user controller views. ------------------------------------------------------ */
+
+table.u-stream {
+	margin-top: 5px;
+	font-family: Arial, Helvetica, sans-serif
+}
+
+table.u-stream tr:hover {
+	background-color: #EAF3FA;
+	margin-left: 5%;
+	cursor: pointer
+}
+
+table.u-stream tr.new-day {
+	border-top: 3px solid #D4DCE8
+}
+
+table.u-stream td {
+	padding: 0;
+	border-bottom: 1px solid #eee
+}
+
+table.u-stream td.day {
+	border-bottom: 1px solid #fff;
+	width: 12%
+}
+
+table.u-stream td.day a {
+	color: #333;
+	font-weight: bold;
+	text-align: center;
+	background: #eee;
+	margin-right: 5px;
+	padding: 4px 0 3px 3px;
+	display: block;
+	text-decoration: none
+}
+
+table.u-stream td.day span {
+	color: #333;
+	font-weight: bold;
+	text-align: center;
+	background: #eee;
+	margin-right: 5px;
+	padding: 2px 0 5px 0;
+	display: block;
+	text-decoration: none
+}
+
+table.u-stream td.empty {
+	background-color: #fff;
+	border-bottom: 1px solid #fff;
+	width: 12%;
+	cursor: default
+}
+
+table.u-stream td.empty:hover {
+	background-color: #fff;
+	border-bottom: 1px solid #fff
+}
+
+table.u-stream td.empty a {
+	background-color: #fff;
+	border-bottom: 1px solid #fff;
+	display: block;
+	text-decoration: none
+}
+
+table.u-stream td.hour {
+	text-align: center;
+	vertical-align: top;
+	width: 6%
+}
+
+table.u-stream td.hour a {
+	color: #333;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 0;
+	display: block;
+	height: 18px
+}
+
+table.u-stream td.hour span {
+	color: #333;
+	font-weight: bold;
+	text-decoration: none;
+	padding-top: 6px;
+	display: block;
+	height: 20px
+}
+
+table.u-stream td.event-type {
+	text-align: center;
+	background-color: transparent;
+	color: #15478C;
+	font-size: 1em;
+	padding-top: 7px;
+	vertical-align: top;
+	text-decoration: none;
+	width: 4%
+}
+
+table.u-stream td.event-type a {
+	text-decoration: none
+}
+
+table.u-stream td.user {
+	text-align: left;
+	vertical-align: top;
+	padding: 0;
+	margin: 0
+}
+
+table.u-stream td.user a {
+	font-weight: bold;
+	padding: 2px 4px 9px 0;
+	display: block;
+	text-align: left;
+	padding-left: 10px;
+	line-height: 1.3em
+}
+
+table.u-stream td.description {
+	text-align: left;
+	vertical-align: top;
+	margin: 0;
+	width: 78%;
+	padding: 0.4em 0 0.4em 0.7em
+}
+
+table.u-stream td.description a {
+	padding: 6px 0 6px 0;
+	text-decoration: none;
+	font-weight: normal;
+	color: #000;
+	line-height: 1.2em
+}
+
+table.u-stream td.description em {
+	color: #5274A5;
+	margin: 0 7px 0 0
+}
+
+table.u-stream td.description span {
+	color: #000;
+	margin: 0 3px 0 0
+}
+
+table.u-stream td.description span.user-info {
+	padding: 9px 2px 9px 0;
+	text-decoration: none;
+	font-weight: bold;
+	color: #15478C;
+	line-height: 1.2em
+}
+
+.alert-settings {
+	font-family: Arial, Helvetica, Sans-serif;
+	background: #fefefe url(/images/bg-alert-settings.png) no-repeat scroll -7px -5px;
+	border: 3px solid #E7FABB;
+	margin-bottom: 10px;
+	padding: 8px 30px 2px 6px
+}
+
+.alert-settings span {
+	font-size: 1.1em
+}
+
+.alert-settings .panel {
+	color: #15478C;
+	font-size: 12px;
+	font-weight: normal;
+	cursor: pointer;
+	height: 23px;
+	margin-bottom: 0;
+	padding: 0 0 0 4px;
+	text-decoration: underline
+}
+
+.alert-settings .panel:hover {
+	text-decoration: none
+}
+
+.alert-settings em {
+	color: #5274A5;
+	font-style: normal;
+	font-weight: bold
+}
+
+#alerts {
+	border-top: solid 1px #ddd;
+	width: 100%
+}
+
+#alerts_settings a:hover {
+	color: #900
+}
+
+#filter-alert-types ul {
+	list-style: none;
+	margin: 10px 0 10px 0
+}
+
+#filter-alert-types ul li {
+	padding: 0.2em 0.2em;
+	font-family: Arial, Helvetica, sans-serif
+}
+
+/* --------------------------------------------------- = Styles for user/Stream page ------------------------------------------------------ */
+
+.stream-rightcol {
+	float: right;
+	width: 38%;
+	font-family: Arial, Helvetica, sans-serif
+}
+
+.stream-leftcol {
+	float: left;
+	width: 60%;
+}
+
+table.u-stream td.space-name {
+	text-align: left;
+	vertical-align: top;
+	padding: 0px;
+	margi
+
+n: 0;
+	/*width: 15%;*/ padding: 0.5em 0 0 0.7em
+}
+
+table.u-stream td.space-name img {
+	margin-top: 7px;
+}
+
+table.u-stream td.space-name div {
+	margin-left: 7px;
+	margin-top: -2px;
+}
+
+table.u-stream div.description {
+	text-align: left;
+	vertical-align: top;
+	padding: 0px;
+	margin
+
+: 0;
+/*width: 68%;*/
+}
+
+table.u-stream div.description a {
+	padding: 9px 0;
+	text-decoration: none;
+	font-weight: normal;
+	color: #000;
+	display: block;
+	line-height: 1.2em
+}
+
+table.u-stream div.description em {
+	color: #5274A5;
+	margin: 0 7px 0 0
+}
+
+table.u-stream div.description span {
+	color: #ccc;
+	margin: 0 3px
+}
+
+table.u-stream td.space-name .space-symbol {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #999;
+	margin: 0.2em;
+}
+
+.space-folow-link {
+	text-align: right;
+	font-size: 0.7em;
+	font-weight: bold;
+	padding: 0.2em 0.5em 0.2em 0.4em !important;
+	margin: 0.2em;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #FFF !important
+}
+
+.space-folow-link.green {
+	background: #67C456
+}
+
+.space-folow-link.red {
+	background: #F78C8C
+}
+
+.get-event {
+	background: #FFE17D;
+	text-align: right;
+	font-size: 0.7em;
+	padding: 0.2em;
+	font-weight: bold;
+}
+
+a.get-space {
+	margin-right: 0.5em;
+}
+
+/*********** Top Space link [remove it if not required] *******************/
+
+.top-space {
+	padding: 0em 0.5em;
+	text-align: right;
+}
+
+.top-space label {
+	font-weight: bold;
+}
+
+.top-space select {
+	margin-left: 1em;
+	padding: 0.2em
+}
+
+.top-space select option {
+	padding-bottom: 0.2em;
+}

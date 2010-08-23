@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.0.0">
+	<name>Stream Targets</name>
+	<author>JooCode</author>
+	<creationDate>July 2010</creationDate>
+	<copyright>Copyright (C) 2010 JooCode di Flavio Copes. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>info@joocode.com</authorEmail>
+	<authorUrl>www.joocode.com</authorUrl>
+	<version>1.0.0</version>
+	<description></description>
+	<files>
+		<filename module="mod_streamtargets">mod_streamtargets.php</filename>
+	</files>
+	<params>
+	</params>
+</install>
