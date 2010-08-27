@@ -34,8 +34,8 @@ For this target you can define which controllers you want to observe, in the exa
 ComIssuesControllerIssue
 ComProjectsControllerProject
 
-Then check the actions you want to monitor. Only the standards BREAD actions are supported.
-When a certain action occurs on those controllers, it will be listed in the table jos_stream_activities, and accessible using e.g. HMVC from any component.
+Then check the actions you want to monitor. Only the standards BREAD actions are supported now.
+When a certain action occurs on those controllers, it will be listed in the table jos_stream_activities, and accessible from the frontend interface using e.g. HMVC from any component. This way you can have a simple activity tracking tool for your app.
 
 <h2>Latest activity</h2>
 <? KFactory::get('lib.joomla.language.language')->load('com_stream'); ?>
