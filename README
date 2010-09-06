@@ -40,3 +40,5 @@ When a certain action occurs on those controllers, it will be listed in the tabl
 <h2>Latest activity</h2>
 <? KFactory::get('lib.joomla.language.language')->load('com_stream'); ?>
 <?= KFactory::tmp('site::com.stream.controller.activity')->limit(10)->set('pagination', 'off')->parent_target_id($the_id)->browse(); ?>
+
+Tested on Nooku Framework rev. 2513
